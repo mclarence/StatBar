@@ -23,7 +23,7 @@ let lastWeatherUpdate = 0;
 let weatherFetched = false;
 
 export const command = dispatch => {
-  run("MiniBar/mini-bar-stats.sh " + options.timezone + " " + options.disk).then(output => {
+  run("StatBar.widget/mini-bar-stats.sh " + options.timezone + " " + options.disk).then(output => {
     // parse the output as JSON
     const stats = JSON.parse(output);
     dispatch(
