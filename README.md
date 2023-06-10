@@ -4,7 +4,7 @@ A simple status bar for Mac OS X. Built upon [MiniBar](https://github.com/neuton
 ![screenshot](screenshot_hq.jpg)
 
 # Installation
-1. Clone the repository and move StarBar.widget into the `~/Library/Application Support/Übersicht/widgets` folder.
+1. Clone the repository and move StatBar.widget into the `~/Library/Application Support/Übersicht/widgets` folder.
 2. In `config.json` replace `OPENWEATHERMAP_APIKEY` with your own API key from [OpenWeatherMap](https://openweathermap.org/api).
 3. In index.jsx, change the following options:
 
